@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+//Base
+	"$basetexture" 					"dev\bump"
+	 "$bumpmap"                                                                             "dev\flat_normal"
+	"$phongalbedotint"				"1"
+	
+//Other
+	"$color2"						"[0 0 0]"
+	"$translucent"					"1"
+                "$additive"                                                              "1"
+
+//Phong
+	"$phong" 						"1"
+	"$phongboost"					"1"
+	"$phongfresnelranges"			 "[0 0.2 1]"
+	"$phongexponent"			"900"
+
+
+
+//Envmap	
+	"$envmap" 						"env_cubemap"	
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmapfresnel"				"0"
+	"$envmaptint"					"[.2 .2 .2]"
+
+
+}
+
+

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"Models/Combine_Zombine/CombineSoldierZ_regular_broadsheet"
+	"$bumpmap" "models/Combine_soldier/CombineSoldier_Broadsheet_normal"
+	"$halflambert" 1
+	"$model" "1"
+	"$selfillum" 1
+	"$surfaceprop" "flesh"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost"	"0.4"
+	"$phongfresnelranges"	"[0.1 0.3 0.7]"	
+}
+
+
+

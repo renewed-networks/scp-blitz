@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models/Combine_soldier\helmet_shotgun_diff"
+	"$bumpmap" 	                "models/Combine_soldier\helmet_nrm"
+	"$blendTintByBaseAlpha"	"1"
+	"$phongexponenttexture" 		"models\combine_soldier\head_e"
+
+	"$phongalbedotint"				"1"
+	
+//Other
+	
+	
+//Phong
+	"$phong" 						"1"
+	"$phongboost"					"15.79"
+	"$phongfresnelranges"    "[0.22 0.51 1]"
+	"$phongexponent"			"4"
+
+	"$ambientocclusion"				"0.3"
+
+//Detail
+	"$Detail" 				  	"models/Combine_soldier\helmet_shotgun_emission"
+	"$DetailScale" 			  	  "1"
+	"$DetailBlendFactor" 	  	  "1.5"
+	"$DetailBlendMode" 		   	  "5"
+}
+
+
+
+

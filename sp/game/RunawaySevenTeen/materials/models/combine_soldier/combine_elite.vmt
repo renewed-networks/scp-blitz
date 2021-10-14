@@ -1,0 +1,45 @@
+"VertexLitGeneric"
+{
+	"$bumpmap" "models/combine_soldier/combine_elite_normal"
+
+	"$hongexponenttexture" "models/combine_soldier/combine_elite_phong"
+		"$color2"				"[0.5 0.5 0.5]"
+
+	$envmap					"env_cubemap"
+	$envmaptint				"[ .008 .008 .008 ]"
+	$normalmapalphaenvmapmask	"1"	
+
+	$phong					"1"
+	$phongexponent			"3.5" //10
+	$phongboost				".3" //15
+	$phongfresnelranges		"[0.25 0.5 1]"
+//	$phongalbedotint		"1"
+//	$phongalbedoboost		"48"
+	$lightwarptexture		 "models/combine_soldier/lightwarp_soft"
+
+	$rimlight				"1"
+	$rimlightexponent		"120"	
+	$rimlightboost			".1" //2
+	$rimmask				"1"
+
+	
+		// Use separate self-illum mask on Pre DX9 hardware
+	">=DX90"
+	{
+		"$baseTexture" 		"Models/Combine_soldier/Combine_elite"
+		
+	}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	"<DX90"
+	{
+		"$baseTexture" 	"Models/Combine_soldier/Combine_elite"
+	}
+
+
+	
+	
+}
+
+
+
