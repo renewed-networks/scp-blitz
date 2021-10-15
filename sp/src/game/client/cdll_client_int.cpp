@@ -334,7 +334,7 @@ static ConVar s_cl_team("cl_team", "default", FCVAR_USERINFO|FCVAR_ARCHIVE, "Def
 static ConVar s_cl_class("cl_class", "default", FCVAR_USERINFO|FCVAR_ARCHIVE, "Default class when joining a game");
 
 // Discord RPC
-static ConVar cl_discord_appid("cl_discord_appid", "849626195414614036", FCVAR_DEVELOPMENTONLY | FCVAR_CHEAT);
+static ConVar cl_discord_appid("cl_discord_appid", "898354296905695242", FCVAR_DEVELOPMENTONLY | FCVAR_CHEAT);
 static int64_t startTimestamp = time(0);
 
 #ifdef HL1MP_CLIENT_DLL
